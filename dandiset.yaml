@@ -30,8 +30,8 @@ assetsSummary:
   variableMeasured:
   - Units
 citation: Armstrong, Alex; Vlasov, Yurii (2026) Barrel cortex electrophysiology during
-  tactile VR whisker-guided navigation (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001341/draft
+  tactile VR whisker-guided navigation (Version 0.260414.1316) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001341/0.260414.1316
 contributor:
 - affiliation: []
   email: alexga2@illinois.edu
@@ -47,6 +47,7 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2025-02-21T16:55:21.578649+00:00'
+datePublished: '2026-04-14T13:16:37.105624+00:00'
 description: Electrophysiology in the C2 barrel column of wS1 in mice during continuous
   tactile VR navigation using only the C2 whiskers. Mice are head-fixed on a suspended
   ball, with two walls placed either side of the mouse. The lateral movement of these
@@ -59,6 +60,7 @@ description: Electrophysiology in the C2 barrel column of wS1 in mice during con
   baseline straight running trial, before an open loop 2 second turn to either the
   left or right. Mouse trajectories (forward and lateral distance and speed) calculated
   from ball tracking cameras using custom LabVIEW program.
+doi: 10.48324/dandi.001341/0.260414.1316
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -68,16 +70,28 @@ ethicsApproval:
     schemaKey: ContactPoint
   identifier: '23128'
   schemaKey: EthicsApproval
-id: DANDI:001341/draft
+id: DANDI:001341/0.260414.1316
 identifier: DANDI:001341
 keywords:
 - 'barrel cortex; S1; behavior; decision making; VR '
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001341/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001341/0.260414.1316/assets.yaml
 name: Barrel cortex electrophysiology during tactile VR whisker-guided navigation
 protocol: []
+publishedBy:
+  endDate: '2026-04-14T13:16:37.105624+00:00'
+  id: urn:uuid:0981c787-4b7b-4501-b838-17d0feee9af2
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-04-14T13:16:37.105624+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c5c75dea-22bf-4a74-9cfe-cb36697a6ee6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Neural correlates of perceptual decision making in primary somatosensory cortex
   relation: dcite:IsPublishedIn
@@ -88,6 +102,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001341/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001341/0.260414.1316
+version: 0.260414.1316
 wasGeneratedBy: []
